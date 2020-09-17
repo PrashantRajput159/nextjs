@@ -12,8 +12,11 @@ function Page2({ data }) {
       <Head>
         <title>My page title</title>
         <meta property="og:title" content="My page title2" key="title" />
+        <meta property="og:image" content="https://assets.lookstyle.com.au/images/category/womens675x500.jpg" key="image" />
+        <meta property="og:url" content="https://lookstyle.com.au/category/women/" key="url" />
       </Head>
       <h1>Page2</h1>
+      <img src="https://assets.lookstyle.com.au/images/category/womens675x500.jpg" />
       <ul>
         {data.response.map(item=>
           <li>
